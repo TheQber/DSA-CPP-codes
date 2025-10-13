@@ -1,3 +1,13 @@
+/*
+ * Search Array of Numbers Within Another Array (Inventory System)
+ * 
+ * This program simulates an inventory search system where it searches for multiple items
+ * from one array within another array (inventory). For each search item, it performs a
+ * linear search and reports the position (1-indexed) if found or indicates if the item
+ * is not in the inventory. Input consists of inventory size, inventory items, search array
+ * size, and search items. Output shows the position of each found item or "not found" message.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

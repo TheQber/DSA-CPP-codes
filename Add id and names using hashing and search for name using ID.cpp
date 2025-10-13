@@ -1,3 +1,14 @@
+/*
+ * Student Database with Hashing (ID-Name Mapping)
+ * 
+ * This program implements a student database using hash table with linear probing
+ * for collision resolution. It stores student ID-name pairs and provides efficient
+ * lookup by student ID. The implementation uses modulo hashing and handles collisions
+ * through linear probing. Input consists of number of students, followed by ID-name
+ * pairs, and finally a search ID. Output displays the student name corresponding
+ * to the search ID or indicates if the student is not found.
+ */
+
 //header
 #include <iostream>
 #include <cstring>

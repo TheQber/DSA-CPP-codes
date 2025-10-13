@@ -1,3 +1,14 @@
+/*
+ * Remove Node at Specified Position in Doubly Linked List
+ * 
+ * This program removes a node at a specified position from a doubly linked list.
+ * It handles three cases: removing the first node (head), removing the last node (tail),
+ * and removing a node from the middle. The implementation properly updates both next
+ * and prev pointers to maintain list integrity. Input consists of list size, followed
+ * by list elements, and finally the position to delete. Output displays the list
+ * before and after deletion with node numbering.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

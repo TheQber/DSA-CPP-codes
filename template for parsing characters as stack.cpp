@@ -1,3 +1,14 @@
+/*
+ * Character Stack Template for Section Management
+ * 
+ * This program implements a character-based stack for managing sections (likely course sections)
+ * with push, pop, and view operations. It uses an array-based stack implementation with
+ * custom messages for adding/removing sections. The stack follows LIFO principle where
+ * characters represent section identifiers. Input consists of menu choices (1-4) followed
+ * by character values for push operations. Output shows section management operations
+ * with descriptive messages.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

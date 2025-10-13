@@ -1,3 +1,14 @@
+/*
+ * Rotate Circular Linked List by Specified Number
+ * 
+ * This program rotates a circular linked list by a specified number of positions.
+ * It creates a circular linked list from input values and then rotates it by moving
+ * the head pointer to a new position based on the rotation count. The rotation is
+ * calculated as (size - rotation_value) to achieve the desired effect. Input consists
+ * of list size, followed by list elements, and finally the number of rotations.
+ * Output displays the rotated circular list.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

@@ -1,3 +1,14 @@
+/*
+ * Bucket Sort for Book Titles
+ * 
+ * This program implements bucket sort algorithm to sort book titles based on word count.
+ * It counts words in each title and groups titles with the same word count into buckets,
+ * then sorts each bucket lexicographically. The algorithm provides stable sorting where
+ * titles with fewer words appear first, and within each group, titles are alphabetically sorted.
+ * Input consists of number of titles followed by the book titles (one per line).
+ * Output displays sorted titles grouped by word count.
+ */
+
 #include <iostream>
 #include <string>
 #include <vector>

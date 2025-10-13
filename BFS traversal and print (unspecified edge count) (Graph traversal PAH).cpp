@@ -1,3 +1,14 @@
+/*
+ * BFS Traversal with Unspecified Edge Count (Graph Traversal PAH)
+ * 
+ * This program performs BFS (Breadth-First Search) traversal on a directed graph
+ * with an unspecified number of edges. It reads edges until -1 -1 is encountered,
+ * then performs BFS starting from the first node. The implementation includes both
+ * BFS and DFS classes with custom Queue implementation and adjacency list representation.
+ * Input consists of number of nodes followed by edge pairs until -1 -1. Output displays
+ * the BFS traversal order of all reachable nodes.
+ */
+
 // You are using GCC
 // You are using GCC
 // You are using GCC

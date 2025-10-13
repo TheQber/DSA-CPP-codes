@@ -1,3 +1,14 @@
+/*
+ * Find Closest Value Less Than or Equal to Target (Warehouse Search)
+ * 
+ * This program finds the closest item ID that is less than or equal to a target value
+ * in a warehouse inventory system. It searches through an array of item IDs and
+ * identifies the largest value that doesn't exceed the target. The algorithm uses
+ * a single pass through the array to find the optimal match. Input consists of
+ * array size, followed by item IDs, and finally the target value. Output displays
+ * the closest matching item ID or indicates if no suitable item exists.
+ */
+
 // You are using GCC
 // You are using GCC
 // You are using GCC

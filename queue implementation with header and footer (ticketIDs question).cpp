@@ -1,3 +1,13 @@
+/*
+ * Helpdesk Ticket Queue Implementation
+ * 
+ * This program implements a helpdesk ticket management system using a queue data structure.
+ * It manages ticket IDs with operations: enqueue (add ticket to queue), dequeue (process ticket),
+ * and display (show all tickets in queue). The queue has a maximum capacity of 5 tickets.
+ * Input consists of menu options (1-4) followed by ticket IDs for enqueue operations.
+ * The system provides user-friendly messages for queue status and operations.
+ */
+
 //header
 #include <iostream>
 #define MAX_SIZE 5

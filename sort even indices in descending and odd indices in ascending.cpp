@@ -1,3 +1,14 @@
+/*
+ * Sort Even Indices in Descending and Odd Indices in Ascending Order
+ * 
+ * This program sorts an array in a specific pattern: elements at even indices (0, 2, 4, ...)
+ * are sorted in descending order, while elements at odd indices (1, 3, 5, ...) are sorted
+ * in ascending order. It separates the array into two subarrays based on index parity,
+ * sorts each subarray independently, and then interleaves them back together.
+ * Input consists of array size followed by the array elements. Output displays the
+ * array with the specified sorting pattern applied.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <bits/stdc++.h>

@@ -1,3 +1,14 @@
+/*
+ * Selection Sort for String Array with Iteration Display
+ * 
+ * This program sorts an array of strings using selection sort algorithm and displays
+ * the sorting process step by step. It finds the minimum string in each iteration
+ * and swaps it with the current position. The algorithm includes detailed output
+ * showing the array state after each iteration to demonstrate the sorting process.
+ * Input consists of array size followed by string values. Output shows initial order,
+ * array after each iteration, and final sorted order.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <bits/stdc++.h>

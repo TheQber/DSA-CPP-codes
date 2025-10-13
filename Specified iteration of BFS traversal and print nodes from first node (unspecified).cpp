@@ -1,3 +1,14 @@
+/*
+ * BFS Traversal with Specified Iterations (Multiple Graphs)
+ * 
+ * This program performs BFS (Breadth-First Search) traversal on multiple graphs
+ * in separate iterations. Each graph is processed independently with its own BFS
+ * traversal starting from the first encountered node. The implementation uses a
+ * custom Queue class and adjacency list representation. Input consists of number
+ * of iterations, followed for each iteration by: number of nodes, number of edges,
+ * and edge connections. Output displays the BFS traversal order for each graph.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

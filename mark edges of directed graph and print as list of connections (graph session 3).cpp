@@ -1,3 +1,14 @@
+/*
+ * Adjacency List Representation of Undirected Graph (Graph Session 3)
+ * 
+ * This program converts an adjacency matrix representation to an adjacency list format
+ * for an undirected graph. It reads edges and builds an adjacency matrix, then prints
+ * each vertex with its connected neighbors in list format. The implementation uses
+ * a 2D array for the adjacency matrix and displays connections using arrow notation.
+ * Input consists of number of vertices, number of edges, and edge connections.
+ * Output displays each vertex with its adjacency list showing connected nodes.
+ */
+
 // You are using GCC
 //header
 #include <iostream>

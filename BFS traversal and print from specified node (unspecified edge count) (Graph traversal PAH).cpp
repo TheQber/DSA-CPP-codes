@@ -1,3 +1,14 @@
+/*
+ * BFS Traversal from Specified Node (Graph Traversal PAH)
+ * 
+ * This program performs BFS (Breadth-First Search) traversal starting from a user-specified
+ * node on a directed graph with an unspecified number of edges. It reads edges until -1 -1
+ * is encountered, then performs BFS from the specified starting node. The implementation
+ * includes both BFS and DFS classes with custom Queue and adjacency list representation.
+ * Input consists of number of nodes, edge pairs until -1 -1, and starting node.
+ * Output displays the BFS traversal order from the specified starting node.
+ */
+
 // You are using GCC
 // You are using GCC
 // You are using GCC

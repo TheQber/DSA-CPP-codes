@@ -1,3 +1,13 @@
+/*
+ * Print Doubly Linked List in Forward and Reverse Order
+ * 
+ * This program demonstrates bidirectional traversal of a doubly linked list by printing
+ * the list in both forward (head to tail) and reverse (tail to head) order. The doubly
+ * linked list structure with both next and prev pointers enables efficient traversal
+ * in both directions. Input consists of array size followed by integer values.
+ * Output displays the list in original order followed by the reverse order.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

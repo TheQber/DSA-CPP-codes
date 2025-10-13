@@ -1,3 +1,13 @@
+/*
+ * Find and Print Maximum Value in Linked List
+ * 
+ * This program finds the maximum value in a linked list during the insertion process.
+ * It maintains a running maximum value that gets updated whenever a larger value is
+ * inserted. The implementation tracks the maximum during insertion to avoid a separate
+ * traversal. Input consists of list size followed by the integer values to insert.
+ * Output displays the maximum value found in the linked list.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

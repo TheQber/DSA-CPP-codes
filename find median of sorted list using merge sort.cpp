@@ -1,3 +1,14 @@
+/*
+ * Find Median of Sorted List Using Selection Sort
+ * 
+ * This program calculates the median of a list of numbers after sorting them using
+ * selection sort algorithm. It sorts the array in ascending order and then calculates
+ * the median: for even-length arrays, it takes the average of the two middle elements;
+ * for odd-length arrays, it takes the middle element. Input consists of array size
+ * followed by the numbers. Output displays the sorted array and the calculated median
+ * with one decimal place precision.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <bits/stdc++.h>

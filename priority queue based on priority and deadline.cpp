@@ -1,3 +1,14 @@
+/*
+ * Priority Queue with Priority and Deadline Scheduling
+ * 
+ * This program implements a task scheduling system using a priority queue that considers
+ * both priority level and deadline. Tasks with higher priority are scheduled first, and
+ * for tasks with equal priority, earlier deadlines take precedence. The implementation
+ * uses a linked list with sorted insertion to maintain proper ordering. Input consists
+ * of number of tasks followed by priority, deadline, and task name for each task.
+ * Output displays executed tasks in the correct scheduling order.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

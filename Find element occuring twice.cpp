@@ -1,3 +1,14 @@
+/*
+ * Find Element Occurring Twice in Array
+ * 
+ * This program finds the second occurrence of a target element in an array. It tracks
+ * both the first and second occurrences of the target element during a single pass
+ * through the array. If the element occurs at least twice, it displays the index of
+ * the second occurrence. Input consists of array size, followed by array elements,
+ * and finally the target number. Output displays the second occurrence index or indicates
+ * if the element is not found or found only once.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

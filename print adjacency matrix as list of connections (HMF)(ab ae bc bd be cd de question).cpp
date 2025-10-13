@@ -1,3 +1,15 @@
+/*
+ * Print Adjacency Matrix as List of Connections (HMF - Specific Edge Pattern)
+ * 
+ * This program creates a graph with a specific set of edges (ab, ae, bc, bd, be, cd, de)
+ * and converts the adjacency matrix to an adjacency list representation. It uses a
+ * custom ordering approach where edges are processed in a specific sequence and stored
+ * in an array for printing. The implementation builds a 5-vertex graph with predefined
+ * connections and displays each vertex with its connected neighbors. Input consists
+ * of 5 integer values (a, b, c, d, e) representing the vertices. Output displays each
+ * vertex with its adjacency list showing connected nodes.
+ */
+
 //header
 #include <iostream>
 #include <vector>

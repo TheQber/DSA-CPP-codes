@@ -1,3 +1,14 @@
+/*
+ * Delete Value at Position in Doubly Linked List
+ * 
+ * This program deletes a node at a specified position from a doubly linked list.
+ * It handles deletion of head, tail, and middle nodes while properly updating
+ * the prev and next pointers to maintain list connectivity. The implementation
+ * uses 1-based indexing for position specification. Input consists of list size,
+ * followed by list elements, and finally the position to delete. Output displays
+ * the updated list after deletion.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

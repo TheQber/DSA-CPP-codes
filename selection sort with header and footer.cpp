@@ -1,3 +1,14 @@
+/*
+ * Selection Sort for Date Sorting (Day, Month, Year)
+ * 
+ * This program sorts dates using selection sort algorithm based on chronological order.
+ * It compares dates by year first, then month, then day to achieve proper chronological
+ * sorting. The implementation handles three separate arrays for days, months, and years
+ * and maintains synchronization during sorting operations. Input consists of number of
+ * dates followed by day, month, and year for each date. Output displays dates in
+ * chronological order (earliest first).
+ */
+
 //header
 #include <stdio.h>
 

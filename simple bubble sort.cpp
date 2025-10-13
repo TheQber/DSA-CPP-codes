@@ -1,3 +1,13 @@
+/*
+ * Simple Bubble Sort Implementation
+ * 
+ * This program implements the bubble sort algorithm to sort an array of integers in ascending order.
+ * It compares adjacent elements and swaps them if they are in the wrong order, repeating this process
+ * until no more swaps are needed. The algorithm includes optimization to stop early when the array
+ * is already sorted. Input consists of array size followed by the array elements.
+ * Output displays the sorted array elements separated by spaces.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <bits/stdc++.h>

@@ -1,3 +1,14 @@
+/*
+ * Parking Lot Management System
+ * 
+ * This program simulates a parking lot management system using a queue data structure.
+ * It manages parking spots (numbered 0-9) and assigns cars to the first available spot
+ * when parking, and retrieves cars in FIFO order when leaving. The system tracks which
+ * spots are free/occupied using a boolean array. Input consists of command numbers (1-3)
+ * where 1 parks a car, 2 retrieves a car, and 3 exits. Output shows parking/retrieval
+ * confirmations with spot numbers and handles full/empty lot scenarios.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

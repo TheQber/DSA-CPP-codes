@@ -1,3 +1,14 @@
+/*
+ * Find Minimum Value in Stack
+ * 
+ * This program implements a stack with functionality to find the minimum element
+ * at any given time. It uses an array-based stack implementation with push, pop,
+ * and findMinimum operations. The findMinimum function searches through all elements
+ * in the stack to determine the smallest value. Input consists of number of elements
+ * followed by the values to push onto the stack. Output shows the minimum element
+ * before and after popping an element.
+ */
+
 //header
 #include <iostream>
 #include <climits>

@@ -1,3 +1,13 @@
+/*
+ * Insertion Sort with Iteration Display
+ * 
+ * This program implements insertion sort algorithm to sort an array of integers in descending order.
+ * It builds the sorted array one element at a time by inserting each element into its correct position
+ * among the already sorted elements. The program displays the array state after each iteration,
+ * showing the sorting progress. Input consists of array size followed by the array elements.
+ * Output shows initial order, array after each iteration, and final sorted order.
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

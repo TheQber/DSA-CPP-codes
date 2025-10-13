@@ -1,3 +1,14 @@
+/*
+ * Integer Stack Template with Menu Operations
+ * 
+ * This program implements an integer-based stack with push, pop, and view operations
+ * using an array-based implementation. It provides a complete menu-driven interface
+ * for stack operations with proper error handling for empty stack scenarios.
+ * The implementation uses a custom approach with array shifting for stack operations.
+ * Input consists of menu choices (1-4) followed by integer values for push operations.
+ * Output shows stack operations with descriptive messages and current stack contents.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

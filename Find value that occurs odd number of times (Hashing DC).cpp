@@ -1,3 +1,14 @@
+/*
+ * Find Value That Occurs Odd Number of Times (Hashing - Daily Challenge)
+ * 
+ * This program finds the value that appears an odd number of times in an array using
+ * a dictionary-like structure to count frequencies. It maintains a vector of Dictionary
+ * structures where each entry contains a data value and its count. After counting all
+ * frequencies, it searches for the element with an odd count. Input consists of array
+ * size followed by the integer values. Output displays the value that occurs an odd
+ * number of times, or -1 if no such value exists.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

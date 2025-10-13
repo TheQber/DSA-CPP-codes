@@ -1,3 +1,13 @@
+/*
+ * Barcode Sorting Implementation
+ * 
+ * This program sorts barcode numbers using bubble sort algorithm in ascending order.
+ * It reads barcode numbers as long integers and applies bubble sort with early termination
+ * optimization to stop when no more swaps are needed. The algorithm compares adjacent
+ * elements and swaps them if they are in wrong order. Input consists of array size
+ * followed by barcode numbers. Output displays sorted barcode numbers, one per line.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

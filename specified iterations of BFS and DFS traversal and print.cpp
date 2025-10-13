@@ -1,3 +1,15 @@
+/*
+ * BFS and DFS Traversal with Specified Iterations
+ * 
+ * This program implements both BFS (Breadth-First Search) and DFS (Depth-First Search)
+ * algorithms for graph traversal. It processes multiple graphs in iterations, where each
+ * graph is represented as an adjacency list. The implementation includes custom Queue
+ * class for BFS and recursive approach for DFS. Both algorithms start from the first
+ * encountered node and traverse all connected components. Input consists of number of
+ * iterations, followed by nodes, edges, and edge connections for each graph.
+ * Output displays the traversal order for each graph using DFS algorithm.
+ */
+
 // You are using GCC
 // You are using GCC
 // You are using GCC

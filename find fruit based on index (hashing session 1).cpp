@@ -1,3 +1,14 @@
+/*
+ * Hash Table Implementation for Key-Value Lookup (Hashing Session 1)
+ * 
+ * This program implements a hash table for storing and searching key-value pairs
+ * using linear probing for collision resolution. It uses a polynomial hash function
+ * (31 * hash + character) to compute hash values for string keys. The implementation
+ * supports insertion of key-value pairs and searching for existing keys. Input consists
+ * of number of entries, followed by key-value pairs, and finally a search key.
+ * Output indicates whether the search key exists in the hash table or not.
+ */
+
 #include <iostream>
 #include <string>
 #include <vector>

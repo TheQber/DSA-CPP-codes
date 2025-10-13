@@ -1,3 +1,14 @@
+/*
+ * Print Adjacency Matrix as List of Connections (Header, Middle Code, Footer)
+ * 
+ * This program converts an adjacency matrix to an adjacency list representation for
+ * an undirected graph. It reads edges and builds an adjacency matrix, then displays
+ * each vertex with its connected neighbors in list format. The implementation uses
+ * a 2D array for the adjacency matrix and shows connections with arrow notation.
+ * Input consists of number of vertices, number of edges, and edge connections.
+ * Output displays each vertex with its adjacency list showing connected nodes.
+ */
+
 //header
 #include <iostream>
 

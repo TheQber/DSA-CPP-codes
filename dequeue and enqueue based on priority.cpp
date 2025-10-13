@@ -1,3 +1,14 @@
+/*
+ * Priority Queue Implementation with Heap-based Operations
+ * 
+ * This program implements a priority queue using a max-heap data structure where elements
+ * with higher priority values are dequeued first. It provides enqueue and dequeue operations
+ * with heapify up and heapify down functions to maintain heap properties. The implementation
+ * uses an array-based heap with Element structures containing data and priority fields.
+ * Input consists of data-priority pairs followed by 'y'/'Y' to continue or any other character to stop.
+ * Output displays dequeued elements in priority order (highest first).
+ */
+
 //header
 #include <iostream>
 

@@ -1,3 +1,14 @@
+/*
+ * Graph Connectivity Classification (Strongly, Weakly, Unilaterally Connected)
+ * 
+ * This program classifies directed graphs into different connectivity categories using
+ * Floyd-Warshall algorithm and DFS. It determines if a graph is strongly connected
+ * (path exists between all pairs), unilaterally connected (path exists between all
+ * pairs in at least one direction), or weakly connected (connected when ignoring
+ * edge directions). Input consists of graph size followed by adjacency matrix.
+ * Output displays the connectivity classification of the graph.
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

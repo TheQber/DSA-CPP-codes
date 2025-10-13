@@ -1,3 +1,13 @@
+/*
+ * Checkout Queue Implementation
+ * 
+ * This program simulates a checkout queue system using a circular queue implementation with array.
+ * It manages customer IDs with operations: enqueue (add customer to queue), dequeue (process customer),
+ * and display (show waiting customers). The queue has a maximum capacity of 5 customers.
+ * Input consists of menu options (1-4) followed by customer IDs for enqueue operations.
+ * The system prevents overflow and handles empty queue conditions gracefully.
+ */
+
 // You are using GCC
 //header
 #include <iostream>

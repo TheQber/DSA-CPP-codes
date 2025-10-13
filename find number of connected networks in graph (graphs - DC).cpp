@@ -1,3 +1,14 @@
+/*
+ * Find Number of Connected Networks/Components (Graphs - Daily Challenge)
+ * 
+ * This program finds the number of connected components in an undirected graph using
+ * DFS (Depth-First Search). It builds an adjacency list representation and performs
+ * DFS from each unvisited node to identify all connected components. The algorithm
+ * marks visited nodes and explores all reachable nodes from each starting point.
+ * Input consists of number of vertices followed by edge pairs until -1 -1.
+ * Output displays each connected component as a separate line of vertices.
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

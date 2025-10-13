@@ -1,3 +1,14 @@
+/*
+ * Bracket Validation Using Stack
+ * 
+ * This program validates whether brackets in an expression are properly balanced using a stack.
+ * It checks for three types of brackets: (), {}, and [] and ensures each opening bracket
+ * has a corresponding closing bracket in the correct order. The algorithm uses a stack to
+ * track opening brackets and validates matches when closing brackets are encountered.
+ * Input consists of an expression string containing brackets and other characters.
+ * Output indicates whether the brackets are balanced or not balanced.
+ */
+
 #include <iostream>
 #include <stdlib.h>
 using namespace std;

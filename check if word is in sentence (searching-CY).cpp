@@ -1,3 +1,14 @@
+/*
+ * Word Search in Sentence (Searching - CY)
+ * 
+ * This program searches for a specific word within a given sentence using substring
+ * comparison. It uses a custom substring function to extract potential word matches
+ * and compares them with the target word. The algorithm checks all possible positions
+ * in the sentence where the word could appear. Input consists of a sentence (with
+ * spaces) followed by the word to search. Output indicates whether the word is
+ * present in the sentence or not.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <algorithm>

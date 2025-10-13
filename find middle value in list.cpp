@@ -1,3 +1,13 @@
+/*
+ * Find Middle Value in Doubly Linked List
+ * 
+ * This program finds the middle element(s) in a doubly linked list. For even-length lists,
+ * it displays both middle elements, and for odd-length lists, it displays the single middle
+ * element. The implementation uses a doubly linked list with both head and tail pointers
+ * for efficient traversal. Input consists of array size followed by integer values.
+ * Output displays the list and then the middle value(s) based on the list length.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

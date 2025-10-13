@@ -1,3 +1,13 @@
+/*
+ * Delete Last Node from Linked List
+ * 
+ * This program demonstrates basic linked list operations including insertion at the end
+ * and deletion of the last node. It creates a singly linked list from input values and
+ * then removes the last node. The implementation uses a simple LinkedList class with
+ * pushVal, removeLastNode, and printList methods. Input consists of array size followed
+ * by the integer values to insert. Output displays the list after removing the last element.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

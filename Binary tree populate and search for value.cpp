@@ -1,3 +1,14 @@
+/*
+ * Binary Search Tree Population and Search
+ * 
+ * This program implements a Binary Search Tree (BST) with insertion and search functionality.
+ * It creates a BST by inserting integer values and maintains the BST property where left child
+ * is smaller and right child is larger than the parent. The search function traverses the tree
+ * to find a target value and reports whether it exists in the tree. Input consists of array size,
+ * followed by values to insert, and finally the target value to search. Output indicates whether
+ * the target value is found or not found in the BST.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

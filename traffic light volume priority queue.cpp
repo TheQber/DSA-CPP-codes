@@ -1,3 +1,14 @@
+/*
+ * Traffic Light Priority Queue Based on Traffic Volume
+ * 
+ * This program manages traffic light switching order based on traffic volume using a
+ * priority queue implementation. Roads with higher traffic volume (priority) are given
+ * precedence in the switching sequence. The implementation uses a linked list with
+ * sorted insertion to maintain proper priority ordering. Input consists of number of
+ * roads followed by road number and traffic volume for each road. Output displays
+ * the traffic light switching order with volume information.
+ */
+
 //You are using GCC
 // You are using GCC
 #include <iostream>

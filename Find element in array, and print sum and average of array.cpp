@@ -1,3 +1,14 @@
+/*
+ * Find Element in Array and Calculate Sum/Average
+ * 
+ * This program searches for a target element in an array and calculates the sum and
+ * average of all array elements. It performs a linear search to find the target element,
+ * counting the number of comparisons made during the search. The program also computes
+ * the sum of all elements and their average with proper decimal formatting. Input consists
+ * of array size, array elements, and the target element to search. Output displays the
+ * search result with index, comparison count, sum, and average of all elements.
+ */
+
 // You are using GCC
 // You are using GCC
 // You are using GCC

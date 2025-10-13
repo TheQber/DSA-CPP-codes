@@ -1,3 +1,14 @@
+/*
+ * Print Strongly Connected Components Based on Adjacency Matrix
+ * 
+ * This program finds and prints all strongly connected components (SCCs) in a directed
+ * graph using Kosaraju's algorithm. It reads edge pairs to build both the original
+ * graph and its transpose, then performs two DFS passes to identify SCCs. The algorithm
+ * uses a stack to store finishing times and processes vertices in reverse order during
+ * the second DFS. Input consists of number of edges followed by edge pairs (u, v).
+ * Output displays each SCC as a line of vertices belonging to that component.
+ */
+
 #include <iostream>
 #include <vector>
 #include <stack>

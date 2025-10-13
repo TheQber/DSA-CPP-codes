@@ -1,3 +1,14 @@
+/*
+ * Remove Duplicates from Doubly Linked List
+ * 
+ * This program removes duplicate values from a doubly linked list while preserving
+ * the first occurrence of each value. It uses a doubly linked list structure with
+ * both next and prev pointers for efficient traversal in both directions. The algorithm
+ * compares each node with all subsequent nodes and removes duplicates. Input consists
+ * of array size followed by integer values. Output displays the list after removing
+ * all duplicate elements.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

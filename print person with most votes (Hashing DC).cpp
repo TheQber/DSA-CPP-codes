@@ -1,3 +1,14 @@
+/*
+ * Find Person with Most Votes (Hashing - Daily Challenge)
+ * 
+ * This program finds the person with the most votes using a dictionary-like structure
+ * to count vote frequencies. It maintains a vector of Dictionary structures where each
+ * entry contains a candidate name and vote count. After counting all votes, it finds
+ * the candidate with the highest vote count, with lexicographically smaller names
+ * breaking ties. Input consists of number of votes followed by candidate names.
+ * Output displays the name of the candidate with the most votes.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

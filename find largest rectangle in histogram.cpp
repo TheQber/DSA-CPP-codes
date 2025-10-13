@@ -1,3 +1,14 @@
+/*
+ * Largest Rectangle in Histogram
+ * 
+ * This program finds the area of the largest rectangle that can be formed within a histogram.
+ * It uses a creative 2D matrix approach where the histogram is visualized as a binary matrix,
+ * then systematically explores all possible rectangles to find the maximum area. The algorithm
+ * converts histogram heights into a 2D representation and checks for continuous rectangular
+ * regions. Input consists of histogram size followed by height values. Output displays the
+ * maximum rectangular area that can be formed within the histogram bars.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

@@ -1,3 +1,13 @@
+/*
+ * Basic Stack Implementation Using Array Template
+ * 
+ * This program implements a stack data structure using an array with a maximum size of 100.
+ * It provides basic stack operations: push (add element to top), pop (remove element from top),
+ * and display (show all elements from top to bottom). The implementation uses a global array
+ * and tracks the top position. Input consists of menu choices (1-4) followed by character values
+ * for push operations. The stack follows LIFO (Last In, First Out) principle.
+ */
+
 #include <iostream>
 using namespace std;
 

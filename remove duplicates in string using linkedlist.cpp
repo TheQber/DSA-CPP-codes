@@ -1,3 +1,14 @@
+/*
+ * Remove Duplicates from String Using Linked List
+ * 
+ * This program removes duplicate characters from a string using a linked list
+ * data structure. It processes each character of the input string and only
+ * adds characters that haven't been seen before. The implementation uses a
+ * stack-like linked list with push, pop, and contains operations to track
+ * unique characters. Input consists of a string. Output displays the string
+ * with all duplicate characters removed while preserving order.
+ */
+
 //header
 #include <iostream>
 using namespace std;

@@ -1,3 +1,13 @@
+/*
+ * Stack Implementation Using Linked List
+ * 
+ * This program implements a stack data structure using a singly linked list with dynamic memory allocation.
+ * It provides basic stack operations: push (add element to top), pop (remove element from top), and display
+ * (show all elements from top to bottom). The implementation uses a global head pointer and Node structure.
+ * Input consists of character choices ('1'-'4') followed by character values for push operations.
+ * The program includes proper memory management with cleanup on exit.
+ */
+
 //header
 #include <iostream>
 using namespace std;

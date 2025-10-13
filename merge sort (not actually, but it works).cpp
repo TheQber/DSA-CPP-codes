@@ -1,3 +1,13 @@
+/*
+ * Linked List Selection Sort Implementation
+ * 
+ * This program implements a selection sort algorithm using linked list data structure.
+ * It creates a linked list from input integers and sorts them in ascending order by finding
+ * the minimum element from the unsorted portion and linking it to the sorted portion.
+ * The algorithm uses a custom Node structure with data and next pointer. Input consists of
+ * array size followed by integer values. Output displays the sorted linked list elements.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

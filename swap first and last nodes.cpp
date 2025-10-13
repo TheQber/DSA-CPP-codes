@@ -1,3 +1,13 @@
+/*
+ * Swap First and Last Nodes in Linked List
+ * 
+ * This program swaps the first and last nodes of a linked list while maintaining
+ * the relative order of all other nodes. It finds the second-to-last node, updates
+ * the pointers to swap the head and tail nodes, and adjusts the connections
+ * accordingly. Input consists of list size followed by the integer values.
+ * Output displays the list before and after the swap operation.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

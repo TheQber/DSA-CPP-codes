@@ -1,3 +1,14 @@
+/*
+ * Priority Queue Implementation Using Linked List
+ * 
+ * This program implements a priority queue using a linked list where elements are
+ * inserted in priority order (higher priority values are placed earlier in the list).
+ * The implementation uses sorted insertion to maintain the priority ordering and
+ * supports insertion with both data value and priority level. Input consists of
+ * number of elements followed by value-priority pairs for each element.
+ * Output displays all elements with their data and priority values in priority order.
+ */
+
 //You are using GCC
 // You are using GCC
 #include <iostream>

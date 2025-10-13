@@ -1,3 +1,14 @@
+/*
+ * Element Frequency Counter Using Dictionary Structure (Hashing PAH)
+ * 
+ * This program counts the frequency of each element in an array using a dictionary-like
+ * structure with value-count pairs. It maintains a vector of Dictionary structures
+ * where each entry contains a data value and its count. The algorithm searches for
+ * existing values and increments their count, or creates new entries for unseen values.
+ * Input consists of array size followed by the integer values. Output displays each
+ * unique value with its corresponding frequency count.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

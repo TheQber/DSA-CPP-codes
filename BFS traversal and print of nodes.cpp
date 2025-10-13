@@ -1,3 +1,14 @@
+/*
+ * BFS Traversal and Print of Nodes
+ * 
+ * This program performs BFS (Breadth-First Search) traversal on a directed graph
+ * starting from a specified node. It uses a custom Queue implementation with linked
+ * list nodes and an adjacency list representation for the graph. The algorithm
+ * explores all reachable nodes level by level and stores the traversal order.
+ * Input consists of number of nodes, number of edges, edge connections, and starting node.
+ * Output displays the BFS traversal order of all reachable nodes.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

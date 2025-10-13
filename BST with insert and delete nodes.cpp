@@ -1,3 +1,14 @@
+/*
+ * BST with Insert and Delete Nodes (Level-based Display)
+ * 
+ * This program implements a Binary Search Tree with insertion and deletion operations,
+ * displaying the tree using a level-based matrix representation. It maintains level
+ * information for each node and uses a matrix array to store nodes by their levels.
+ * The tree is displayed level by level after each operation. Input consists of tree
+ * size, elements to insert, and values for insertion and deletion operations.
+ * Output shows the BST state after initial population, insertion, and deletion.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

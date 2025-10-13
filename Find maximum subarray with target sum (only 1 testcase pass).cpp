@@ -1,3 +1,14 @@
+/*
+ * Find Maximum Subarray with Target Sum
+ * 
+ * This program finds the longest subarray that sums to a target value. It parses
+ * space-separated numbers from a string input and searches for all possible subarrays
+ * to find the one with the maximum length that equals the target sum. The algorithm
+ * uses nested loops to check all possible subarrays and tracks the longest valid one.
+ * Input consists of a string of space-separated numbers followed by the target sum.
+ * Output displays the start and end indices of the longest subarray, or (0, -1) if none found.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <algorithm>

@@ -1,3 +1,13 @@
+/*
+ * Reverse Queue Using Recursion
+ * 
+ * This program reverses the order of elements in a queue using a recursive approach.
+ * It implements a queue using a linked list structure and uses recursion to reverse
+ * the elements by dequeuing all elements, reversing the remaining queue, and then
+ * enqueuing the dequeued element back. Input consists of queue size followed by
+ * the elements to be enqueued. Output displays the queue elements in reversed order.
+ */
+
 //header
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,3 +1,14 @@
+/*
+ * Reverse Sentence with Words in Original Order
+ * 
+ * This program reverses the order of words in a sentence while keeping the characters
+ * within each word in their original order. It parses the input sentence into individual
+ * words and stores them in an array, then prints the words in reverse order.
+ * The algorithm handles word separation by spaces and preserves word integrity.
+ * Input consists of a sentence string. Output displays the words in reverse order
+ * separated by spaces.
+ */
+
 // You are using GCC
 #include <algorithm>
 #include <iostream>

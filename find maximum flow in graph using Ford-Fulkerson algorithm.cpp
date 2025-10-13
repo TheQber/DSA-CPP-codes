@@ -1,3 +1,14 @@
+/*
+ * Maximum Flow in Graph Using Ford-Fulkerson Algorithm (Edmonds-Karp Implementation)
+ * 
+ * This program finds the maximum flow between a source and sink node in a directed graph
+ * using the Ford-Fulkerson algorithm with Edmonds-Karp implementation. It uses BFS to find
+ * augmenting paths and updates residual capacities to compute the maximum flow. The algorithm
+ * repeatedly finds paths from source to sink and augments flow along these paths until no
+ * more augmenting paths exist. Input consists of number of vertices, adjacency matrix
+ * representing edge capacities, source node, and sink node. Output displays the maximum flow.
+ */
+
 #include <iostream>
 #include <vector>
 #include <queue>

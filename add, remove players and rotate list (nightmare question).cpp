@@ -1,3 +1,14 @@
+/*
+ * Player Lobby Management with Circular Linked List
+ * 
+ * This program implements a player lobby system using a circular linked list to manage
+ * players in a game. It supports adding players, removing players, rotating the list
+ * (for turn-based gameplay), displaying all players, and clearing the lobby. The circular
+ * structure allows seamless rotation through players. Input consists of menu choices (1-5)
+ * followed by player names for add/remove operations. The system maintains proper circular
+ * linking and handles edge cases like empty lobby and single player scenarios.
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,3 +1,15 @@
+/*
+ * Sliding Window Technique with Hash Table (Hashing Session 3)
+ * 
+ * This program implements a sliding window technique to count distinct elements in
+ * each window of size k in an array. It uses a hash table (map) to track element
+ * frequencies and efficiently updates the count as the window slides. The algorithm
+ * removes elements leaving the window and adds new elements entering the window,
+ * maintaining an accurate count of distinct elements. Input consists of array size,
+ * array elements, and window size k. Output displays the count of distinct elements
+ * for each window position.
+ */
+
 //header
 #include <iostream> 
 #include <map> 

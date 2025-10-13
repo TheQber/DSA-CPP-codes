@@ -1,3 +1,14 @@
+/*
+ * Check if Doubly Linked List is Palindrome
+ * 
+ * This program checks whether a doubly linked list forms a palindrome by comparing
+ * elements from both ends moving towards the center. It uses the bidirectional nature
+ * of doubly linked lists to traverse from head and tail simultaneously. The algorithm
+ * compares corresponding elements and determines if the list reads the same forwards
+ * and backwards. Input consists of list size followed by integer values.
+ * Output displays the list in both directions and indicates whether it's a palindrome.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

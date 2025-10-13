@@ -1,3 +1,14 @@
+/*
+ * Strongly Connected Components (SCC) Finder Using Kosaraju's Algorithm
+ * 
+ * This program finds all strongly connected components in a directed graph using
+ * Kosaraju's algorithm. The algorithm performs two DFS traversals: first on the
+ * original graph to fill a stack, then on the transposed graph to identify SCCs.
+ * Components are sorted by their smallest element for consistent output. Input consists
+ * of number of vertices, number of edges, and edge connections. Output displays
+ * all strongly connected components with nodes in each component.
+ */
+
 #include <iostream>
 #include <vector>
 #include <stack>

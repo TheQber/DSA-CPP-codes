@@ -1,3 +1,13 @@
+/*
+ * Selection Sort for Student Height Ordering
+ * 
+ * This program implements selection sort algorithm to sort student heights in ascending order.
+ * It finds the minimum element from the unsorted portion and places it at the beginning.
+ * The algorithm includes detailed output showing the height order before sorting, after each
+ * iteration, and the final sorted result. Input consists of array size followed by height values.
+ * The program provides educational output to demonstrate the selection sort process step by step.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

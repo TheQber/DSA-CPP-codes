@@ -1,3 +1,13 @@
+/*
+ * Infix to Postfix Conversion Using Stack
+ * 
+ * This program converts mathematical expressions from infix notation to postfix notation
+ * using a stack-based algorithm. It handles operator precedence (^, *, /, +, -) and parentheses
+ * to ensure correct conversion. The algorithm processes each character, pushing operators
+ * onto the stack based on precedence rules and popping when appropriate. Input consists of
+ * an infix expression string. Output displays the equivalent postfix expression.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

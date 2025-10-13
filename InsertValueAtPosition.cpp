@@ -1,3 +1,13 @@
+/*
+ * Insert Value at Specified Position in Doubly Linked List
+ * 
+ * This program inserts a new node at a specified position in a doubly linked list.
+ * It handles insertion at the beginning, middle, and end positions while maintaining
+ * proper doubly linked list structure. The implementation uses 1-based indexing and
+ * validates position bounds. Input consists of the data to insert and the position.
+ * Output displays the updated list after insertion or an error message for invalid positions.
+ */
+
 // You are using GCC
 Node* createNode(int data) {
     Node* newNode = new Node();

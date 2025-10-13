@@ -1,3 +1,14 @@
+/*
+ * Common Elements Counter Between Two Arrays (Hashing PAH)
+ * 
+ * This program counts the number of common elements between two arrays using a
+ * nested loop approach. It compares each element of the second array with all
+ * elements of the first array and counts unique matches. The algorithm uses
+ * a break statement to avoid counting duplicate matches for the same element.
+ * Input consists of size and elements of first array, followed by size and
+ * elements of second array. Output displays the count of common elements.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

@@ -1,3 +1,14 @@
+/*
+ * BST with Multiple Traversal Methods
+ * 
+ * This program provides a complete Binary Search Tree implementation with menu-driven operations.
+ * It supports BST creation, and three types of tree traversals: inorder (left-root-right),
+ * preorder (root-left-right), and postorder (left-right-root). The program uses a menu system
+ * where users can create a BST with specified number of nodes, and then perform any of the
+ * three traversals. Input consists of menu choices and integer values for BST construction.
+ * Each traversal displays the tree elements in the respective order.
+ */
+
 //header
 #include <iostream>
 using namespace std;

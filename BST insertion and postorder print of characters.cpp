@@ -1,3 +1,13 @@
+/*
+ * BST Insertion and Postorder Traversal for Characters
+ * 
+ * This program creates a Binary Search Tree from character input and performs postorder traversal.
+ * Characters are inserted into the BST maintaining the BST property (left < root < right).
+ * Postorder traversal visits left subtree, right subtree, then root. Input consists of number
+ * of characters followed by the character values. Output displays the postorder traversal result
+ * with characters separated by spaces.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

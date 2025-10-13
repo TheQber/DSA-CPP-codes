@@ -1,3 +1,13 @@
+/*
+ * Level Order Population and Inorder Traversal
+ * 
+ * This program builds a binary tree using level order (breadth-first) insertion and then
+ * performs inorder traversal. It uses a custom queue implementation to manage node insertion
+ * in level order fashion. The tree is populated by reading positive integers until a non-positive
+ * value is encountered. After building the tree, it performs inorder traversal (left-root-right)
+ * to display the tree contents in sorted order.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

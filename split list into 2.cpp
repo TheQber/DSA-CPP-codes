@@ -1,3 +1,13 @@
+/*
+ * Split Linked List into Two Equal Halves
+ * 
+ * This program splits a linked list into two separate lists with approximately equal
+ * lengths. For odd-length lists, the first half gets one extra element. The algorithm
+ * creates two new linked lists by copying elements from the original list, dividing
+ * them at the midpoint. Input consists of list size followed by the elements.
+ * Output displays both halves of the split list on separate lines.
+ */
+
 #include <iostream>
 
 using namespace std;

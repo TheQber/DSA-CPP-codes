@@ -1,3 +1,14 @@
+/*
+ * BST Populate and Inorder Print with Delete Values (Header, Middle Code, Footer)
+ * 
+ * This program implements a complete Binary Search Tree (BST) with insertion, deletion,
+ * and inorder traversal operations. It uses a structured approach with header, middle code,
+ * and footer sections. The deletion algorithm handles three cases: leaf nodes, nodes with
+ * one child, and nodes with two children. Input consists of array size, array elements
+ * to insert, and a value to delete. Output displays the BST before and after deletion
+ * using inorder traversal.
+ */
+
 //header
 #include <iostream>
 using namespace std;

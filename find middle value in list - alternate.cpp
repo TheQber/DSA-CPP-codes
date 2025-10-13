@@ -1,3 +1,13 @@
+/*
+ * Find Middle Element in Circular Linked List (Alternative Approach)
+ * 
+ * This program finds the middle element in a circular linked list using a different approach
+ * than the standard two-pointer technique. It first calculates the total length by traversing
+ * the circular list, then finds the middle position and returns the corresponding node.
+ * The implementation handles the circular nature by checking when the traversal returns to head.
+ * Input consists of array size followed by integer values. Output displays the middle element.
+ */
+
 #include <iostream>
 
 using namespace std;

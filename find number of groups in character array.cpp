@@ -1,3 +1,14 @@
+/*
+ * Find Number of Connected Groups in Character Array
+ * 
+ * This program finds the number of connected components (groups) in a 2D character grid
+ * using DFS (Depth-First Search). Each group consists of adjacent cells containing
+ * the same character. The algorithm uses 4-directional movement (up, down, left, right)
+ * to explore connected regions and marks visited cells to avoid counting them multiple times.
+ * Input consists of grid dimensions (n, m) followed by the character grid.
+ * Output displays the total number of connected groups in the grid.
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

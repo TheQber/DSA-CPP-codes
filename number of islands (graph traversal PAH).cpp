@@ -1,3 +1,15 @@
+/*
+ * Number of Islands Problem (Graph Traversal PAH)
+ * 
+ * This program counts the number of islands in a 2D grid where islands are connected
+ * regions of 1s (land) surrounded by 0s (water). It uses DFS (Depth-First Search) to
+ * explore each island completely before moving to the next one. The algorithm uses
+ * 4-directional movement to connect adjacent land cells and marks visited cells to
+ * avoid counting the same island multiple times. Input consists of grid dimensions
+ * (n, m) followed by the grid as strings of 0s and 1s. Output displays the total
+ * number of islands in the grid.
+ */
+
 #include <iostream>
 #include <vector>
 #include <string>

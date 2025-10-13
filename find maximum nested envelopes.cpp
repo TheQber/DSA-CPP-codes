@@ -1,3 +1,14 @@
+/*
+ * Find Maximum Nested Envelopes (Russian Doll Problem)
+ * 
+ * This program finds the maximum number of envelopes that can be nested inside each other
+ * using dynamic programming and graph traversal. It builds a parent graph where edges
+ * represent which envelopes can contain others, then uses DFS with memoization to find
+ * the longest nesting chain. Envelopes are sorted by width and height to optimize the
+ * solution. Input consists of number of envelopes followed by width-height pairs.
+ * Output displays the maximum number of nested envelopes possible.
+ */
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

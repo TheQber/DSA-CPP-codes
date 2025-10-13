@@ -1,3 +1,14 @@
+/*
+ * Doubly Linked List Operations: Append, Delete Head, Delete Tail, Print
+ * 
+ * This program provides comprehensive operations for a doubly linked list including
+ * appending nodes at the end, deleting nodes from the front and back, and printing
+ * the list contents. It also includes memory management with a freeList function.
+ * The implementation handles proper pointer management for bidirectional traversal.
+ * Input consists of operations and data values as needed. Output shows operation
+ * confirmations and current list state.
+ */
+
 // You are using GCC
 void append(Node*& head, int data) {
    //Type your code here

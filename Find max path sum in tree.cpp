@@ -1,3 +1,14 @@
+/*
+ * Maximum Path Sum in Binary Tree
+ * 
+ * This program finds the maximum path sum in a binary tree where a path is defined as any
+ * sequence of nodes from some starting node to any node in the tree along parent-child
+ * connections. The path must contain at least one node and does not need to go through
+ * the root. The algorithm uses dynamic programming approach with postorder traversal.
+ * Input consists of preorder traversal with -1 representing NULL nodes. Output displays
+ * the maximum path sum that can be obtained from any path in the tree.
+ */
+
 #include <iostream>
 #include <climits>
 using namespace std;

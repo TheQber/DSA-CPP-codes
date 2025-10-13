@@ -1,3 +1,13 @@
+/*
+ * Hash Table Implementation with Quadratic Probing (Hashing Session 2)
+ * 
+ * This program implements a hash table using quadratic probing for collision resolution.
+ * It uses a simple hash function that sums ASCII values of characters and applies modulo
+ * operation. When collisions occur, it uses quadratic probing (h + i²) to find the next
+ * available slot. Input consists of number of strings to hash followed by the strings.
+ * Output displays the hash table showing the index and stored string for each occupied slot.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

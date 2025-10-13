@@ -1,3 +1,13 @@
+/*
+ * Complete Doubly Linked List Operations
+ * 
+ * This program provides a comprehensive implementation of a doubly linked list with all
+ * standard operations including insertion (front, end, at position), deletion (first, last, at position),
+ * searching, and traversal. The implementation uses a Node structure with data, prev, and next pointers
+ * to enable bidirectional traversal. Input consists of menu choices (1-9) followed by appropriate
+ * values for each operation. The program maintains head, tail pointers and length counter for efficient operations.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

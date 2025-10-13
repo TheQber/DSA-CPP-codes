@@ -1,3 +1,14 @@
+/*
+ * Adjacency Matrix Implementation for Undirected Graph
+ * 
+ * This program implements an adjacency matrix representation for an undirected graph
+ * with operations to initialize, add edges, remove edges, and print the matrix.
+ * It uses dynamic memory allocation for the matrix and handles edge operations
+ * by updating corresponding matrix cells. Input consists of number of vertices,
+ * number of edges, and edge connections. Output displays the complete adjacency
+ * matrix showing graph connectivity.
+ */
+
 // You are using GCC
 //header
 #include <iostream>

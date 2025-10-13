@@ -1,3 +1,13 @@
+/*
+ * Sort Linked List in Ascending Order Using Insertion Sort
+ * 
+ * This program sorts a linked list in ascending order using an insertion sort approach.
+ * It maintains the list in sorted order during insertion by finding the correct position
+ * for each new element. The algorithm compares each new element with existing elements
+ * and inserts it in the appropriate position to maintain ascending order. Input consists
+ * of list size followed by the integer values to insert. Output displays the sorted list.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

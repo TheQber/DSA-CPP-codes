@@ -1,3 +1,14 @@
+/*
+ * Student Records Sorting by Multiple Criteria (CGPA and More)
+ * 
+ * This program sorts student records using quicksort algorithm based on different criteria
+ * such as GPA, age, or major. It uses a Student structure containing name, GPA, age, and major
+ * fields. The sorting is implemented with a custom comparison function that handles multiple
+ * sorting criteria. Input consists of number of students followed by student details (name,
+ * GPA, age, major) and the sorting criterion. Output displays sorted student records
+ * in a formatted table with proper alignment.
+ */
+
 #include <iostream>
 #include <iomanip>
 #include <vector>

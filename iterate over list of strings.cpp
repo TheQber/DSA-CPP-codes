@@ -1,3 +1,14 @@
+/*
+ * Iterate Over List of Strings (Application Runner)
+ * 
+ * This program manages a list of application names using a linked list and provides
+ * functionality to iterate through and display all running applications. It accepts
+ * application names until "exit" is entered, then displays all applications in the
+ * order they were added. The implementation uses string data type for application names.
+ * Input consists of application names (one per line) until "exit" is entered.
+ * Output displays all running applications in a formatted list.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <string>

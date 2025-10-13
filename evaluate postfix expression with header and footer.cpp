@@ -1,3 +1,14 @@
+/*
+ * Postfix Expression Evaluator with Stack Implementation
+ * 
+ * This program evaluates mathematical expressions in postfix notation using a stack
+ * data structure. It supports basic arithmetic operations (+, -, *, /) and uses
+ * a custom stack implementation with proper error handling. The algorithm processes
+ * operands and operators from left to right, maintaining correct evaluation order.
+ * Input consists of a postfix expression string containing digits and operators.
+ * Output displays the evaluated result of the expression.
+ */
+
 //header
 #include <iostream>
 #include <sstream>

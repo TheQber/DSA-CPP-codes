@@ -1,3 +1,14 @@
+/*
+ * Find Postorder Predecessor in Binary Tree
+ * 
+ * This program finds the postorder predecessor of a given node in a binary tree.
+ * It constructs a binary tree from preorder input (with -1 for NULL nodes) and
+ * maintains parent pointers to track node relationships. The algorithm searches
+ * for the target node and determines its postorder predecessor based on tree structure.
+ * Input consists of preorder traversal with -1 for NULL nodes, followed by the target value.
+ * Output displays the postorder predecessor or indicates if the node is not found.
+ */
+
 // You are using GCC
 // You are using GCC
 #include <iostream>

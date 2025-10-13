@@ -1,3 +1,14 @@
+/*
+ * Find Number of Elements Greater Than Median (Mentor Analysis)
+ * 
+ * This program counts how many elements in an array are greater than the median value,
+ * similar to analyzing mentor performance above median level. It first sorts the array
+ * using selection sort, calculates the median, and then counts elements that exceed
+ * the median value. For even-length arrays, it uses the lower median; for odd-length
+ * arrays, it uses the middle element. Input consists of array size followed by the numbers.
+ * Output displays the sorted array and the count of elements greater than the median.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <iomanip>

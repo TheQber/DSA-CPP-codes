@@ -1,3 +1,15 @@
+/*
+ * Shortest Path Finder Using BFS (Word Transformation Game)
+ * 
+ * This program finds the shortest path between two nodes in a directed graph using
+ * BFS (Breadth-First Search) algorithm. It's designed for word transformation games
+ * where each node represents a word and edges represent valid transformations.
+ * The algorithm uses a queue to explore nodes level by level and returns the minimum
+ * distance to the target. Input consists of number of nodes, edges, edge connections,
+ * start node, and target node. Output displays the shortest path distance or -1 if
+ * no path exists.
+ */
+
 #include <iostream>
 #include <vector>
 #include <queue>

@@ -1,3 +1,13 @@
+/*
+ * Merge Sort with Iteration Display
+ * 
+ * This program implements merge sort algorithm using divide-and-conquer approach to sort an array
+ * of integers in ascending order. It recursively divides the array into halves, sorts each half,
+ * and then merges the sorted halves back together. The program displays the array state after
+ * each merge operation to show the sorting progress. Input consists of array size followed by
+ * the array elements. Output shows the given array, array after each merge iteration, and final sorted array.
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;

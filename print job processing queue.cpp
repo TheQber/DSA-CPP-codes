@@ -1,3 +1,13 @@
+/*
+ * Print Job Processing Queue
+ * 
+ * This program simulates a print job processing system using a queue data structure.
+ * It manages print jobs with different page counts and processes them in FIFO order.
+ * The system supports enqueuing print jobs, dequeuing for processing, and displaying
+ * the current queue status. Input consists of menu options (1-3) followed by page counts
+ * for enqueue operations. Output shows job processing status and queue contents.
+ */
+
 // You are using GCC
 //header
 #include <iostream>

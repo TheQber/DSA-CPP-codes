@@ -1,3 +1,14 @@
+/*
+ * Shelf Management Using Stack Operations
+ * 
+ * This program implements a shelf management system using stack operations where items
+ * are pushed onto the top of the shelf and popped from the top (LIFO principle).
+ * It provides push, pop, and display operations for managing items on the shelf.
+ * The implementation uses an array-based stack with global variables. Input consists
+ * of menu choices and item values for push operations. Output shows item placement
+ * and removal confirmations along with current shelf contents.
+ */
+
 // You are using GCC
 #include <bits/stdc++.h>
 int shelf[100];

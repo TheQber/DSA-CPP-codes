@@ -1,3 +1,14 @@
+/*
+ * Process Management with Circular Linked List (Insert and Delete)
+ * 
+ * This program implements a process management system using a circular linked list
+ * where processes can be inserted at the beginning and deleted by process ID.
+ * The implementation uses a unique approach where the head pointer represents the
+ * starting point for printing, and new processes are inserted after the current head.
+ * Input consists of command numbers (1-4) followed by process IDs for insert/delete operations.
+ * Output shows current processes, deletion confirmations, and handles empty list scenarios.
+ */
+
 #include <iostream>
 using namespace std;
 struct Node {

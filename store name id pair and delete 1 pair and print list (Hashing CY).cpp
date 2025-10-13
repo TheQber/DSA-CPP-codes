@@ -1,3 +1,14 @@
+/*
+ * Store Name-ID Pairs and Delete One Pair (Hashing CY)
+ * 
+ * This program manages a collection of name-ID pairs using a vector of Dictionary
+ * structures. It allows searching for a specific name and removing it from the
+ * collection, then displays all remaining pairs. The implementation simulates
+ * a simple hash table-like behavior for storing and retrieving key-value pairs.
+ * Input consists of number of pairs, followed by name-ID pairs, and finally
+ * a search name to delete. Output shows deletion confirmation and remaining pairs.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

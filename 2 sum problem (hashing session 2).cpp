@@ -1,3 +1,14 @@
+/*
+ * Two Sum Problem with Hashing (Session 2)
+ * 
+ * This program solves the Two Sum problem using a hash table approach to efficiently
+ * find pairs of numbers that sum to a target value. It uses an array-based hash table
+ * with offset handling for negative numbers (-100 to 100 range). The algorithm stores
+ * each number's index in the hash table and checks for the complement (target - current).
+ * Input consists of array size, array elements, and target sum. Output displays the
+ * indices of the first valid pair or indicates if no solution exists.
+ */
+
 //header
 #include <iostream>
 

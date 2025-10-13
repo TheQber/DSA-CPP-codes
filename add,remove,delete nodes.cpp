@@ -1,3 +1,14 @@
+/*
+ * Circular Linked List Operations
+ * 
+ * This program implements a circular linked list with comprehensive operations including
+ * insertion at beginning, deletion (first, last, by value), searching, and traversal.
+ * The circular structure ensures the last node points back to the first node. Input consists
+ * of command numbers (1-7) followed by values for insertion, deletion, and search operations.
+ * The program provides user-friendly messages for each operation and handles edge cases
+ * like empty list and node not found scenarios.
+ */
+
 //You are using GCC
 #include <iostream>
 using namespace std;

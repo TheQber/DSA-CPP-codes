@@ -1,3 +1,14 @@
+/*
+ * Find N Closest Numbers to Target (Searching - Daily Challenge)
+ * 
+ * This program finds the N closest numbers to a target value in an array by removing
+ * the target if present and sorting remaining elements by their distance from the target.
+ * It uses a custom sorting approach that considers both absolute difference and value
+ * magnitude for tie-breaking. Elements with equal distance are sorted in descending order.
+ * Input consists of array size, array elements, target value, and number of closest
+ * elements to find. Output displays the N closest numbers to the target.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <bits/stdc++.h>

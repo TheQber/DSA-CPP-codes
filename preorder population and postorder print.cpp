@@ -1,3 +1,13 @@
+/*
+ * Binary Tree Construction and Postorder Traversal
+ * 
+ * This program constructs a binary tree from preorder input and performs postorder traversal.
+ * The tree is built recursively where -1 represents NULL nodes, allowing construction of
+ * any binary tree structure. After building the tree, it performs postorder traversal
+ * (left-right-root) and calculates the sum of all node values. Input consists of preorder
+ * sequence with -1 for NULL nodes. Output shows postorder traversal and total sum of nodes.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;

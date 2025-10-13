@@ -1,3 +1,14 @@
+/*
+ * Find Minimum Roads to Add for Strongly Connected Graph (Graphs - CY)
+ * 
+ * This program finds the minimum number of roads (edges) that need to be added to make
+ * a directed graph strongly connected. It uses Kosaraju's algorithm to find strongly
+ * connected components, then builds a condensed graph and calculates the number of
+ * sources and sinks. The minimum roads needed is the maximum of sources and sinks.
+ * Input consists of number of vertices, number of edges, and edge connections.
+ * Output displays the minimum number of roads to add for strong connectivity.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

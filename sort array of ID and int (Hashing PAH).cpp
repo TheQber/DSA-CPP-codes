@@ -1,3 +1,14 @@
+/*
+ * Sort Array of ID and Integer Pairs (Hashing PAH)
+ * 
+ * This program sorts pairs of strings (IDs) and integers in ascending order based
+ * on the string values. It uses bubble sort algorithm to sort the pairs where
+ * the string component determines the ordering. Both the string and integer arrays
+ * are swapped together to maintain the pairing during sorting. Input consists of
+ * number of pairs followed by string-integer pairs. Output displays the sorted
+ * pairs with strings in ascending order.
+ */
+
 // You are using GCC
 #include <iostream>
 #include <vector>

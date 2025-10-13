@@ -1,3 +1,14 @@
+/*
+ * Two Sum Problem with Hashing (PAH - Programming Assignment Helper)
+ * 
+ * This program solves the Two Sum problem using a hash table approach for efficient
+ * lookups. It finds pairs of numbers in an array that sum to a target value using
+ * a boolean array as a hash table. The algorithm processes each element and checks
+ * if its complement (target - current element) exists in the hash table. Input consists
+ * of array size, array elements, and target sum. Output displays all valid pairs
+ * that sum to the target or indicates if no such pairs exist.
+ */
+
 #include <iostream>
 using namespace std;
 

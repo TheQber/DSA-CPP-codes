@@ -1,3 +1,13 @@
+/*
+ * Postfix Expression Evaluator
+ * 
+ * This program evaluates mathematical expressions in postfix (Reverse Polish) notation using
+ * a stack-based approach. It processes operands and operators from left to right, pushing
+ * operands onto the stack and performing operations when operators are encountered. The stack
+ * maintains the correct order for calculations. Input consists of a postfix expression string
+ * containing digits and operators (+, -, *, /). Output displays the evaluated result of the expression.
+ */
+
 // You are using GCC
 #include <iostream>
 using namespace std;
